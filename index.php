@@ -6,5 +6,8 @@
 </head>
 <body>
     <h1>Hello world!</h1>
+    <h2>Hello</h2>
+    <h3>People</h3>
+    
 </body>
 </html>
