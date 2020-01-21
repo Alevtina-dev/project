@@ -1,24 +1,21 @@
 'use strict';
-//console.log(typeof(null));
 
 
-//console.log("arr" + " - object");
+let money = prompt("Ваш бюджет на месяц?",""), 
+    time = prompt("Введите дату в формате YYYY-MM-DD","");
 
-//console.log(4 + " - object");
+let appData = {
+    budget: money,
+    timeData: time,
+    expenses: {},
+    optionalExpenses: {},
+    income: [],
+    savings: false
+};
 
-let answer = prompt("Есть ли Вам 18?", "Да");
+let a1 = prompt("Введите обязательную статью расходов в этом месяце",""),
+a2 = prompt("Во сколько обойдется?","");
 
-//console.log(answer);
+appData.expenses.a1 = a2;
 
-let incr = 10,
-decr = 10;
-
-
-
-//console.log(incr++);
-//console.log(decr--);
-
-let isChecked = true,
-isClose = false;
-
-console.log(isChecked || isClose);
+alert(appData.budget/30);
